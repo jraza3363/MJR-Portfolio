@@ -15,9 +15,10 @@
 }
 .content-div {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 250px;
+    background-color: white;
 }
 
 .content-div:hover {
@@ -26,4 +27,5 @@
         rgba(112, 157, 255, 0.8),
         hsla(242, 74%, 61%, 0.8)   
     )!important;
+    background-size: cover;
 }
